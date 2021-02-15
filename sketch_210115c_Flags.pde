@@ -1,0 +1,33 @@
+size(600,400);
+noFill();
+strokeWeight(3);
+arc(250, 155, 50, 50, QUARTER_PI, HALF_PI+QUARTER_PI);
+stroke(255, 255, 255);
+fill(255, 255, 255);
+rect(0, 0, 100, 35);
+stroke(#FF0307);
+fill(#FF0307);
+rect(0, 35, 100, 35);
+stroke(#0907AF);
+fill(#0907AF);
+triangle(0, 0, 0, 70, 50, 35);
+
+stroke(#0300FA);
+fill(#0300FA);
+rect(100, 0, 33, 70);
+stroke(#FFEC12);
+fill(#FFEC12);
+rect(133, 0, 33, 70);
+stroke(#FF0004);
+fill(#FF0004);
+rect(166, 0, 33, 70);
+
+stroke(0, 0, 255);
+fill(0, 0, 255);
+rect(200, 0, 100, 70);
+stroke(255, 255, 255);
+fill(255, 255, 255);
+rect(245, 0, 10, 70);
+stroke(255, 255, 255);
+fill(255, 255, 255);
+rect(200, 25, 100, 10);
